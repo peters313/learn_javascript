@@ -1,0 +1,22 @@
+{
+  "name": "learn_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Peters",
+  "license": "ISC",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "body": "^5.1.0",
+    "webpack": "^1.13.3",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.7",
+    "path": "^0.12.7"
+  }
+}
