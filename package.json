@@ -9,14 +9,15 @@
   },
   "author": "Eric Peters",
   "license": "ISC",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
     "body": "^5.1.0",
-    "webpack": "^1.13.3",
     "express": "^4.14.0",
     "mongoose": "^4.6.7",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   }
 }
