@@ -44,7 +44,9 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	
+	var a = document.getElementById("servicesList").options.length;
+
+	console.log(a);
 
 
 /***/ }
