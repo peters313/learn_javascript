@@ -14,7 +14,6 @@ var server = app.listen(3000, function(){
 });
 
 app.get("/*", function(req, res, next){
-    console.log("Here is a console log");
         var file = req.params[0] || 'src/index.html';
         res.sendFile(path.join(__dirname, file));
         //next();
