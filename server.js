@@ -6,7 +6,7 @@ var path = require('path');
 
 var mongoose = require('mongoose');
 
-// mongoose.connect('mongodb://localhost/learn_javascript');
+mongoose.connect('mongodb://localhost/learn_javascript');
 
 var server = app.listen(3000, function(){
         var port = server.address().port;
